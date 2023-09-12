@@ -4,9 +4,13 @@ import com.iohao.game.action.skeleton.annotation.ActionController;
 import com.iohao.game.action.skeleton.annotation.ActionMethod;
 import com.iohao.game.action.skeleton.core.exception.MsgException;
 import com.template.dto.HelloReq;
+import com.template.router.Router;
+import com.template.router.UserRouter;
 
-@ActionController(1)
+@ActionController(Router.USER)
 public class TestAction {
+
+
     /**
      * 示例 here 方法
      */
@@ -17,10 +21,13 @@ public class TestAction {
         return newHelloReq;
     }
 
+    
+
+
     /**
      * 示例 异常机制演示
      */
-    @ActionMethod(1)
+    @ActionMethod(UserRouter.LOGIN)
     public HelloReq jackson(HelloReq helloReq) {
         String jacksonName = "jackson";
         if (!jacksonName.equals(helloReq.getName())) {
@@ -29,4 +36,5 @@ public class TestAction {
         helloReq.setName(helloReq.getName() + ", hello, jackson !");
         return helloReq;
     }
+
 }
