@@ -13,7 +13,8 @@
 | 路由导航       | 通过界面来定位路由位置                | y   |
 | 路由预览       | 在方法上直接显示计算后的路由             | y   |
 | 入出参数预览     | 在方法上点击按钮后无需跳转即可预览          | n   |
-| Proto导出    | 导出某个@ProtobufClass为Proto文件 | n   |
+| Proto导出    | 导出某个@ProtobufClass为Proto文件 | y   |
+| 类复制为Proto  | 要求@ProtobufClass标记的类       | y   |
 | 文档导出       | 导出所有文档或类文档或单个方法文档          | n   |
 | Action调试   | 对json模式Action调试            | n   |
 | 客户端代码请求模板  | 通过方法导航图标创建客户端请求代码          | n   |

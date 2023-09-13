@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+/** 请求 */
+message HelloReq {
+  /** 注释 */
+  string name = 1;
+}

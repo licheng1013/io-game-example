@@ -7,5 +7,7 @@ import lombok.Data;
 @ProtobufClass
 @Data
 public class HelloReq {
+    
+    /** 注释 */
     private String name;
 }
