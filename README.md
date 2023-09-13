@@ -9,6 +9,7 @@
 - 对IoGame进行json模式下的调试(dev)
 
 ## 安装插件
+- 注意: 如果搜索不到插件请检查是否是最新版IDEA
 - IoGame插件 [IoGame](https://plugins.jetbrains.com/plugin/20526-iogame)
 
 ## 插件支持功能
@@ -22,7 +23,7 @@
 | 入出参数预览     | 在方法上点击按钮后无需跳转即可预览          | n   |
 | Proto导出    | 导出某个@ProtobufClass为Proto文件 | y   |
 | 类复制为Proto  | 要求@ProtobufClass标记的类       | y   |
-| 文档导出       | 导出所有文档或类文档或单个方法文档          | n   |
+| 文档导出       | 导出所有文档或类文档或单个方法文档          | y   |
 | Action调试   | 对json模式Action调试            | n   |
 | 客户端代码请求模板  | 通过方法导航图标创建客户端请求代码          | n   |
 | 路由变量转换C#代码 | 把当前目录下有常量变量的类转换为对应的C#类     | n   |
