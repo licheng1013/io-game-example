@@ -1,7 +1,14 @@
 # IoGameExample
 
-## 首先请安装
+## 介绍
+- IoGame插件是什么？
+- 一个基于IDEA平台的插件，对IoGame框架进行增强功能开发。
+- 如路由导航,路由预览,在项目越来越大时往往找路由需要花费一些时间。此插件可以快速定位到目标方法上。
+- 文档导出功能,当您与他人合作时。有时需要编写文档和参数之类。此插件提供可导出文档功能。
+- 对全栈开发者,此插件提供客户端请求代码模板。路由类转成对应语言类路由类,可减少大量编写模板时间(dev)。
+- 对IoGame进行json模式下的调试(dev)
 
+## 安装插件
 - IoGame插件 [IoGame](https://plugins.jetbrains.com/plugin/20526-iogame)
 
 ## 插件支持功能
@@ -22,5 +29,6 @@
 | 路由变量转换TS代码 | 把当前目录下有常量变量的类转换为对应的TS类     | n   |
 
 
-
+## 反馈
+- [Issues](https://github.com/licheng1013/io-game-example/issues)
 
