@@ -15,11 +15,13 @@
     </properties>
 
     <dependencies>
+        <!-- 单体应用启动 -->
         <dependency>
             <groupId>com.iohao.game</groupId>
-            <artifactId>bolt-run-one</artifactId>
-            <version>17.1.55</version>
+            <artifactId>run-one-netty</artifactId>
+            <version>17.1.56</version>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

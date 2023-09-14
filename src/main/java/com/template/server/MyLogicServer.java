@@ -24,17 +24,15 @@ public class MyLogicServer extends AbstractBrokerClientStartup {
 
     @Override
     public BrokerClientBuilder createBrokerClientBuilder() {
-        BrokerClientBuilder builder = BrokerClient.newBuilder();
-        builder.appName("demo游戏逻辑服");
-        return builder;
+        return BrokerClient.newBuilder().appName("demo游戏逻辑服");
     }
 
-    @Override
-    public BrokerAddress createBrokerAddress() {
-        // 类似 127.0.0.1 ，但这里是本机的 ip
-        String localIp = NetworkKit.LOCAL_IP;
-        // broker （游戏网关）默认端口
-        int brokerPort = 10200;
-        return new BrokerAddress(localIp, brokerPort);
-    }
+//    @Override
+//    public BrokerAddress createBrokerAddress() {
+//        // 类似 127.0.0.1 ，但这里是本机的 ip
+//        String localIp = NetworkKit.LOCAL_IP;
+//        // broker （游戏网关）默认端口
+//        int brokerPort = 10200;
+//        return new BrokerAddress(localIp, brokerPort);
+//    }
 }
