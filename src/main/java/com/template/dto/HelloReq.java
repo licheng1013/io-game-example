@@ -12,4 +12,11 @@ public class HelloReq  {
     
     /** 注释 */
     private String name;
+
+    /** 年龄 */
+    private String age;
+
+    /** 昵称 */
+    private String nickName;
+
 }

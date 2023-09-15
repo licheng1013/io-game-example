@@ -4,4 +4,8 @@ syntax = "proto3";
 message HelloReq {
   /** 注释 */
   string name = 1;
+  /** 年龄 */
+  string age = 2;
+  /** 昵称 */
+  string nickName = 3;
 }
