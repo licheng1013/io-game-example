@@ -36,7 +36,22 @@
 | 自动把路由类为TS代码     | 自动转换为TS代码需要指定扫描目录              | n      |          |
 | 自动把实体转换为Proto文件 | 自动转换@ProtobufClass标记的类为Proto文件 | y      | 2023.9.3 |
 
+
+### 路由导航与路由预览
+- 通过界面来定位路由位置
+- ![](image/img.png)
+
+### 文档&Proto导出,C#&TS代码转换
+- ![](image/img_1.png)
+
+### 当个方法或类文档导出
+- ![](image/img_2.png)
+- ![](image/img_3.png)
+
+
 ### 客户端请求代码模板
+
+- ![](image/img_4.png)
 
 - 模板文件存在于项目io-game/code.txt 可由此进行定制
 - 示例
@@ -82,6 +97,9 @@ clientChannel.request({
 - 注意:
 - 解析后是经过处理的值，假设引用了其他类变量的值 如 @ActionMethod(UserRouter.LOGIN) 会找 UserRouter.LOGIN 的实际值
 - 解析前是没有处理的值，如 @ActionMethod(UserRouter.LOGIN) 则 UserRouter.LOGIN
+
+### Proto自动转换
+- ![](image/img_5.png)
 
 ## 反馈
 
